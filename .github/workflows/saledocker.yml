@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  test:
+  daleputo:
     runs-on: ubuntu-latest
 
     steps:

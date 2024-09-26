@@ -32,5 +32,5 @@ jobs:
 
       - name: Stop and remove Docker container
         run: |
-          docker stop valjean68/pipeline:reconn
-          docker rm valjean68/pipeline:reconn
+          docker stop pipeline:reconn
+          docker rm pipeline:reconn

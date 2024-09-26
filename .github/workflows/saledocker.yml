@@ -25,4 +25,12 @@ jobs:
       # Run tests inside the Docker container
       - name: Run tests in Docker container
         run: |
-          docker run --rm valjean68/pipeline:reconn
+          docker run -d valjean68/pipeline:reconn
+      # Mira mira mira sacale una foto
+      - name: Mira mira mira sacale una foto
+        run: echo "Grande DevOps"
+
+      - name: Stop and remove Docker container
+        run: |
+          docker stop valjean68/pipeline:reconn
+          docker rm valjean68/pipeline:reconn

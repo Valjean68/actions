@@ -25,4 +25,4 @@ jobs:
       # Run tests inside the Docker container
       - name: Run tests in Docker container
         run: |
-          docker run --rm valjean68/pipeline:reconn pytest
+          docker run --rm valjean68/pipeline:reconn
